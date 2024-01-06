@@ -3,12 +3,12 @@ using EpiasElectricityMarketClient.Controllers;
 
 namespace EpiasElectricityMarketClient
 {
-    
+
 
     public partial class EpiasAPIClient
     {
 
-        private string _baseUrl;
+        private string _baseUrl = @"https://seffaflik.epias.com.tr/electricity-service/";
 
         private System.Net.Http.HttpClient _httpClient;
         private static System.Lazy<Newtonsoft.Json.JsonSerializerSettings> _settings = new System.Lazy<Newtonsoft.Json.JsonSerializerSettings>(CreateSerializerSettings, true);

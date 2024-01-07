@@ -31,6 +31,9 @@ using EpiasElectricityMarketClient;
   }
 
 ```
+## Sample MCP Data 
+![MCP_Data](https://github.com/CedricScottish/EpiasEMClient/assets/61628447/49e29b7f-8c9a-407c-b59e-56157c953e1d)
+
 ## Dependence
 - Newtonsoft.Json [Official Site](https://www.newtonsoft.com/json)
 ## Reference 
